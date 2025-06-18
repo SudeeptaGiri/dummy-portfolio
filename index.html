@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudeepta Giri - Portfolio</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .hover-scale {
+        transition: transform 0.3s ease;
+      }
+      .hover-scale:hover {
+        transform: scale(1.02);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <header>
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:block fixed w-full bg-white shadow-md z-50">
+        <div
+          class="container mx-auto px-6 py-4 flex items-center justify-between"
+        >
+          <a
+            href="index.html"
+            class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors"
+            >SG</a
+          >
+          <ul class="flex space-x-8">
+            <li>
+              <a
+                href="index.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="projects.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Mobile Navigation -->
+      <nav class="fixed bottom-0 w-full bg-white shadow-lg md:hidden z-50">
+        <ul class="flex justify-around py-3">
+          <li>
+            <a href="index.html" class="text-blue-600"
+              ><i class="fas fa-home text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="about.html"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              ><i class="fas fa-user text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              ><i class="fas fa-code text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              ><i class="fas fa-envelope text-xl"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <main
+      class="min-h-screen pt-20 pb-24 md:pb-0 container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8 "
+    >
+      <!--Image (left section)  -->
+      <figure
+        class="md:w-1/2 "
+      >
+        <img
+          src="./assets/Profile Picture.png"
+          alt="Profile Picture of Sudeepta Giri"
+          class="rounded-full shadow-xl mx-auto hover-scale"
+        />
+      </figure>
+      <!-- about (right section) -->
+      <article class="md:w-1/2 ">
+        <h1 class="text-5xl font-bold text-gray-800 mb-4">
+          Hi, I'm Sudeepta Giri
+        </h1>
+        <p class="text-xl text-gray-600 mb-8">
+          Jr. Software Engineer passionate about creating elegant solutions
+        </p>
+        <section class="flex space-x-4 mb-8">
+          <a
+            href="#"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors hover-scale"
+            >Hire Me</a
+          >
+          <a
+            href="#"
+            class="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors hover-scale"
+            >Download Resume</a
+          >
+        </section>
+        <footer>
+          <ul class="flex space-x-6">
+            <li>
+              <a
+                href="#"
+                class="text-gray-600 hover:text-blue-600 transition-colors text-2xl hover-scale"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-gray-600 hover:text-gray-900 transition-colors text-2xl hover-scale"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-gray-600 hover:text-blue-400 transition-colors text-2xl hover-scale"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
