@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Sudeepta Giri</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .hover-scale {
+        transition: transform 0.3s ease;
+      }
+      .hover-scale:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Desktop Navigation -->
+    <header>
+      <nav class="hidden md:block fixed w-full bg-white shadow-md z-50">
+        <div
+          class="container mx-auto px-6 py-4 flex items-center justify-between"
+        >
+          <a
+            href="index.html"
+            class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors"
+            >SG</a
+          >
+          <ul class="flex space-x-8">
+            <li>
+              <a
+                href="index.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="projects.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >Projects</a
+              >
+            </li>
+            <li><a href="contact.html" class="text-blue-600">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--Mobile Navigation-->
+      <nav class="fixed bottom-0 w-full bg-white shadow-lg md:hidden z-50">
+        <ul class="flex justify-around py-3">
+          <li>
+            <a
+              href="index.html"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              ><i class="fas fa-home text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="about.html"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              ><i class="fas fa-user text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              ><i class="fas fa-code text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a href="contact.html" class="text-blue-600"
+              ><i class="fas fa-envelope text-xl"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="min-h-screen pt-20 pb-24 md:pb-0 bg-gray-50">
+      <section class="container mx-auto px-6">
+        <article
+          class="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8"
+        >
+          <h1 class="text-4xl font-bold text-gray-800 mb-6">Get in Touch</h1>
+          <p class="text-gray-600 mb-8">
+            I'm always open to new opportunities and interesting projects. Feel
+            free to reach out!
+          </p>
+
+          <a
+            href="mailto:sudeeptagiri.11@gmail.com"
+            class="block w-full bg-blue-600 text-white text-center py-4 rounded-lg hover:bg-blue-700 transition-colors mb-8 hover:scale-105 transform duration-200"
+          >
+            <i class="far fa-envelope mr-2"></i>
+            sudeeptagiri.11@gmail.com
+          </a>
+          <!-- contact - social icons -->
+          <footer class="border-t pt-8">
+            <h2 class="text-xl font-semibold text-gray-800 mb-6">
+              Connect With Me
+            </h2>
+            <ul class="flex justify-center space-x-6">
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 hover:text-blue-600 transition-colors"
+                  ><i
+                    class="fab fa-linkedin text-3xl hover:scale-110 transform duration-200"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 hover:text-gray-900 transition-colors"
+                  ><i
+                    class="fab fa-github text-3xl hover:scale-110 transform duration-200"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 hover:text-blue-400 transition-colors"
+                  ><i
+                    class="fab fa-twitter text-3xl hover:scale-110 transform duration-200"
+                  ></i
+                ></a>
+              </li>
+            </ul>
+          </footer>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

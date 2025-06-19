@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Sudeepta Giri</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .hover-scale {
+        transition: transform 0.3s ease;
+      }
+      .hover-scale:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <header>
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:block fixed w-full bg-white shadow-md z-50">
+        <div
+          class="container mx-auto px-6 py-4 flex items-center justify-between"
+        >
+          <a
+            href="index.html"
+            class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors"
+            >SG</a
+          >
+          <ul class="flex space-x-8">
+            <li>
+              <a
+                href="index.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="projects.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="text-gray-600 hover:text-blue-600 transition-colors"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Mobile Navigation -->
+      <nav class="fixed bottom-0 w-full bg-white shadow-lg md:hidden z-50">
+        <ul class="flex justify-around py-3">
+          <li>
+            <a href="index.html" class="text-blue-600"
+              ><i class="fas fa-home text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="about.html"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              ><i class="fas fa-user text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              ><i class="fas fa-code text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              ><i class="fas fa-envelope text-xl"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="min-h-screen pt-20 pb-24 md:pb-0">
+      <section class="container mx-auto px-6">
+        <h1 class="text-4xl font-bold text-gray-800 mb-8 ">
+          My Projects
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- project -1 -->
+          <article
+            class="bg-white rounded-lg shadow-lg overflow-hidden hover-scale "
+          >
+            <img
+              src="https://th.bing.com/th/id/OIP.wEmTpHiBO6XeG8YtIaTm5wHaEE?w=600&h=330&rs=1&pid=ImgDetMain"
+              alt="E-commerce Platform"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h2 class="text-xl font-bold text-gray-800 mb-2">
+                E-commerce Platform
+              </h2>
+              <p class="text-gray-600 mb-4">
+                A full-stack e-commerce solution with real-time inventory
+                management.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm"
+                  >React</span
+                >
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm"
+                  >Node.js</span
+                >
+                <span
+                  class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm"
+                  >MongoDB</span
+                >
+              </div>
+              <a href="#" class="text-blue-600 hover:text-blue-700 font-medium"
+                >View Project →</a
+              >
+            </div>
+          </article>
+          <!-- project -2 -->
+          <article
+            class="bg-white rounded-lg shadow-lg overflow-hidden hover-scale "
+          >
+            <img
+              src="https://th.bing.com/th/id/OIP.eyGpO9fkKXeudfrSQVWt7gHaD9?w=820&h=439&rs=1&pid=ImgDetMain"
+              alt="Task Management App"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h2 class="text-xl font-bold text-gray-800 mb-2">
+                Task Management App
+              </h2>
+              <p class="text-gray-600 mb-4">
+                A collaborative task management tool with real-time updates.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="px-3 py-1 bg-yellow-100 text-yellow-600 rounded-full text-sm"
+                  >Vue.js</span
+                >
+                <span
+                  class="px-3 py-1 bg-red-100 text-red-600 rounded-full text-sm"
+                  >Firebase</span
+                >
+              </div>
+              <a href="#" class="text-blue-600 hover:text-blue-700 font-medium"
+                >View Project →</a
+              >
+            </div>
+          </article>
+          <!-- project -3 -->
+          <article
+            class="bg-white rounded-lg shadow-lg overflow-hidden hover-scale "
+          >
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/f6eed292742241.5e536f55d05d9.jpg"
+              alt="Weather Dashboard"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h2 class="text-xl font-bold text-gray-800 mb-2">
+                Weather Dashboard
+              </h2>
+              <p class="text-gray-600 mb-4">
+                Real-time weather tracking with interactive visualizations.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm"
+                  >JavaScript</span
+                >
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm"
+                  >APIs</span
+                >
+              </div>
+              <a href="#" class="text-blue-600 hover:text-blue-700 font-medium"
+                >View Project →</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
